@@ -19,7 +19,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 30% 70%;
 }
 
 #photo {
@@ -54,9 +54,19 @@ header {
 }
 
 #link {
-    color: rgb(89, 89, 206);
+    color: rgb(38, 133, 234);
 }
 
 #current {
     text-decoration: overline;
+}
+
+#follow-button {
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(38, 133, 234);
+    border: 3px solid rgb(38, 133, 234);
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
 }
